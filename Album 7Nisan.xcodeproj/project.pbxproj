@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEDD8A501AD3F95C00F9E3BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD8A4F1AD3F95C00F9E3BD /* main.m */; };
+		CEDD8A531AD3F95C00F9E3BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD8A521AD3F95C00F9E3BD /* AppDelegate.m */; };
+		CEDD8A561AD3F95C00F9E3BD /* Album_7Nisan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEDD8A541AD3F95C00F9E3BD /* Album_7Nisan.xcdatamodeld */; };
+		CEDD8A591AD3F95C00F9E3BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD8A581AD3F95C00F9E3BD /* ViewController.m */; };
+		CEDD8A5C1AD3F95C00F9E3BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDD8A5A1AD3F95C00F9E3BD /* Main.storyboard */; };
+		CEDD8A5E1AD3F95C00F9E3BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDD8A5D1AD3F95C00F9E3BD /* Images.xcassets */; };
+		CEDD8A611AD3F95C00F9E3BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDD8A5F1AD3F95C00F9E3BD /* LaunchScreen.xib */; };
+		CEDD8A6D1AD3F95C00F9E3BD /* Album_7NisanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD8A6C1AD3F95C00F9E3BD /* Album_7NisanTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEDD8A671AD3F95C00F9E3BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDD8A421AD3F95C00F9E3BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDD8A491AD3F95C00F9E3BD;
+			remoteInfo = "Album 7Nisan";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEDD8A4A1AD3F95C00F9E3BD /* Album 7Nisan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Album 7Nisan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDD8A4E1AD3F95C00F9E3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDD8A4F1AD3F95C00F9E3BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEDD8A511AD3F95C00F9E3BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEDD8A521AD3F95C00F9E3BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEDD8A551AD3F95C00F9E3BD /* Album_7Nisan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Album_7Nisan.xcdatamodel; sourceTree = "<group>"; };
+		CEDD8A571AD3F95C00F9E3BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEDD8A581AD3F95C00F9E3BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEDD8A5B1AD3F95C00F9E3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEDD8A5D1AD3F95C00F9E3BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEDD8A601AD3F95C00F9E3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CEDD8A661AD3F95C00F9E3BD /* Album 7NisanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Album 7NisanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDD8A6B1AD3F95C00F9E3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDD8A6C1AD3F95C00F9E3BD /* Album_7NisanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Album_7NisanTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDD8A471AD3F95C00F9E3BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDD8A631AD3F95C00F9E3BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEDD8A411AD3F95C00F9E3BD = {
+			isa = PBXGroup;
+			children = (
+				CEDD8A4C1AD3F95C00F9E3BD /* Album 7Nisan */,
+				CEDD8A691AD3F95C00F9E3BD /* Album 7NisanTests */,
+				CEDD8A4B1AD3F95C00F9E3BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDD8A4B1AD3F95C00F9E3BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDD8A4A1AD3F95C00F9E3BD /* Album 7Nisan.app */,
+				CEDD8A661AD3F95C00F9E3BD /* Album 7NisanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDD8A4C1AD3F95C00F9E3BD /* Album 7Nisan */ = {
+			isa = PBXGroup;
+			children = (
+				CEDD8A511AD3F95C00F9E3BD /* AppDelegate.h */,
+				CEDD8A521AD3F95C00F9E3BD /* AppDelegate.m */,
+				CEDD8A571AD3F95C00F9E3BD /* ViewController.h */,
+				CEDD8A581AD3F95C00F9E3BD /* ViewController.m */,
+				CEDD8A5A1AD3F95C00F9E3BD /* Main.storyboard */,
+				CEDD8A5D1AD3F95C00F9E3BD /* Images.xcassets */,
+				CEDD8A5F1AD3F95C00F9E3BD /* LaunchScreen.xib */,
+				CEDD8A541AD3F95C00F9E3BD /* Album_7Nisan.xcdatamodeld */,
+				CEDD8A4D1AD3F95C00F9E3BD /* Supporting Files */,
+			);
+			path = "Album 7Nisan";
+			sourceTree = "<group>";
+		};
+		CEDD8A4D1AD3F95C00F9E3BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEDD8A4E1AD3F95C00F9E3BD /* Info.plist */,
+				CEDD8A4F1AD3F95C00F9E3BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEDD8A691AD3F95C00F9E3BD /* Album 7NisanTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDD8A6C1AD3F95C00F9E3BD /* Album_7NisanTests.m */,
+				CEDD8A6A1AD3F95C00F9E3BD /* Supporting Files */,
+			);
+			path = "Album 7NisanTests";
+			sourceTree = "<group>";
+		};
+		CEDD8A6A1AD3F95C00F9E3BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEDD8A6B1AD3F95C00F9E3BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDD8A491AD3F95C00F9E3BD /* Album 7Nisan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDD8A701AD3F95C00F9E3BD /* Build configuration list for PBXNativeTarget "Album 7Nisan" */;
+			buildPhases = (
+				CEDD8A461AD3F95C00F9E3BD /* Sources */,
+				CEDD8A471AD3F95C00F9E3BD /* Frameworks */,
+				CEDD8A481AD3F95C00F9E3BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Album 7Nisan";
+			productName = "Album 7Nisan";
+			productReference = CEDD8A4A1AD3F95C00F9E3BD /* Album 7Nisan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEDD8A651AD3F95C00F9E3BD /* Album 7NisanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDD8A731AD3F95C00F9E3BD /* Build configuration list for PBXNativeTarget "Album 7NisanTests" */;
+			buildPhases = (
+				CEDD8A621AD3F95C00F9E3BD /* Sources */,
+				CEDD8A631AD3F95C00F9E3BD /* Frameworks */,
+				CEDD8A641AD3F95C00F9E3BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDD8A681AD3F95C00F9E3BD /* PBXTargetDependency */,
+			);
+			name = "Album 7NisanTests";
+			productName = "Album 7NisanTests";
+			productReference = CEDD8A661AD3F95C00F9E3BD /* Album 7NisanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDD8A421AD3F95C00F9E3BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Eyüp Çimen";
+				TargetAttributes = {
+					CEDD8A491AD3F95C00F9E3BD = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CEDD8A651AD3F95C00F9E3BD = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CEDD8A491AD3F95C00F9E3BD;
+					};
+				};
+			};
+			buildConfigurationList = CEDD8A451AD3F95C00F9E3BD /* Build configuration list for PBXProject "Album 7Nisan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEDD8A411AD3F95C00F9E3BD;
+			productRefGroup = CEDD8A4B1AD3F95C00F9E3BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDD8A491AD3F95C00F9E3BD /* Album 7Nisan */,
+				CEDD8A651AD3F95C00F9E3BD /* Album 7NisanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDD8A481AD3F95C00F9E3BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDD8A5C1AD3F95C00F9E3BD /* Main.storyboard in Resources */,
+				CEDD8A611AD3F95C00F9E3BD /* LaunchScreen.xib in Resources */,
+				CEDD8A5E1AD3F95C00F9E3BD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDD8A641AD3F95C00F9E3BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDD8A461AD3F95C00F9E3BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDD8A561AD3F95C00F9E3BD /* Album_7Nisan.xcdatamodeld in Sources */,
+				CEDD8A531AD3F95C00F9E3BD /* AppDelegate.m in Sources */,
+				CEDD8A591AD3F95C00F9E3BD /* ViewController.m in Sources */,
+				CEDD8A501AD3F95C00F9E3BD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDD8A621AD3F95C00F9E3BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDD8A6D1AD3F95C00F9E3BD /* Album_7NisanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEDD8A681AD3F95C00F9E3BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDD8A491AD3F95C00F9E3BD /* Album 7Nisan */;
+			targetProxy = CEDD8A671AD3F95C00F9E3BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEDD8A5A1AD3F95C00F9E3BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDD8A5B1AD3F95C00F9E3BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEDD8A5F1AD3F95C00F9E3BD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDD8A601AD3F95C00F9E3BD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDD8A6E1AD3F95C00F9E3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEDD8A6F1AD3F95C00F9E3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDD8A711AD3F95C00F9E3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Album 7Nisan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEDD8A721AD3F95C00F9E3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Album 7Nisan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEDD8A741AD3F95C00F9E3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Album 7NisanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Album 7Nisan.app/Album 7Nisan";
+			};
+			name = Debug;
+		};
+		CEDD8A751AD3F95C00F9E3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Album 7NisanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Album 7Nisan.app/Album 7Nisan";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDD8A451AD3F95C00F9E3BD /* Build configuration list for PBXProject "Album 7Nisan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDD8A6E1AD3F95C00F9E3BD /* Debug */,
+				CEDD8A6F1AD3F95C00F9E3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDD8A701AD3F95C00F9E3BD /* Build configuration list for PBXNativeTarget "Album 7Nisan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDD8A711AD3F95C00F9E3BD /* Debug */,
+				CEDD8A721AD3F95C00F9E3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEDD8A731AD3F95C00F9E3BD /* Build configuration list for PBXNativeTarget "Album 7NisanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDD8A741AD3F95C00F9E3BD /* Debug */,
+				CEDD8A751AD3F95C00F9E3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEDD8A541AD3F95C00F9E3BD /* Album_7Nisan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEDD8A551AD3F95C00F9E3BD /* Album_7Nisan.xcdatamodel */,
+			);
+			currentVersion = CEDD8A551AD3F95C00F9E3BD /* Album_7Nisan.xcdatamodel */;
+			path = Album_7Nisan.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEDD8A421AD3F95C00F9E3BD /* Project object */;
+}
