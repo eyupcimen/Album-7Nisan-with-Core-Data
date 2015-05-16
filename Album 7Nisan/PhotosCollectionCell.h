@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PhotosCollectionCell.h
 //  Album 7Nisan
 //
 //  Created by Eyüp Çimen on 7.04.2015.
@@ -8,8 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface PhotosCollectionCell : UICollectionViewCell
+
+
+@property (strong,nonatomic) UIImageView *imageViewCell;
+
+
+
+
+
+
 
 
 @end
-

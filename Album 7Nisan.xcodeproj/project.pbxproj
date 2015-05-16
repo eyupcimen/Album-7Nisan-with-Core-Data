@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE002DD21AD72DD2000BEABD /* PhotoDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE002DD11AD72DD2000BEABD /* PhotoDetailVC.m */; };
+		CE0DD76D1AD6537E00027D29 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0DD76C1AD6537E00027D29 /* Album.m */; };
+		CE0DD7701AD6537F00027D29 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0DD76F1AD6537F00027D29 /* Photo.m */; };
+		CE4E9B0A1AD551980024FD3B /* PictureDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4E9B091AD551980024FD3B /* PictureDataTransformer.m */; };
+		CE74202C1AD80F8B0004CEA4 /* FiltersCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE74202B1AD80F8B0004CEA4 /* FiltersCollectionVC.m */; };
 		CEDD8A501AD3F95C00F9E3BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD8A4F1AD3F95C00F9E3BD /* main.m */; };
 		CEDD8A531AD3F95C00F9E3BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD8A521AD3F95C00F9E3BD /* AppDelegate.m */; };
 		CEDD8A561AD3F95C00F9E3BD /* Album_7Nisan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEDD8A541AD3F95C00F9E3BD /* Album_7Nisan.xcdatamodeld */; };
-		CEDD8A591AD3F95C00F9E3BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD8A581AD3F95C00F9E3BD /* ViewController.m */; };
 		CEDD8A5C1AD3F95C00F9E3BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDD8A5A1AD3F95C00F9E3BD /* Main.storyboard */; };
 		CEDD8A5E1AD3F95C00F9E3BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDD8A5D1AD3F95C00F9E3BD /* Images.xcassets */; };
 		CEDD8A611AD3F95C00F9E3BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDD8A5F1AD3F95C00F9E3BD /* LaunchScreen.xib */; };
 		CEDD8A6D1AD3F95C00F9E3BD /* Album_7NisanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD8A6C1AD3F95C00F9E3BD /* Album_7NisanTests.m */; };
+		CEDD8A7B1AD3F9B600F9E3BD /* AlbumTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD8A7A1AD3F9B600F9E3BD /* AlbumTableVC.m */; };
+		CEDD8A801AD4023200F9E3BD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDD8A7F1AD4023200F9E3BD /* CoreData.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		CEDD8A831AD4040700F9E3BD /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD8A821AD4040700F9E3BD /* CoreDataHelper.m */; };
+		CEDD8A861AD4667F00F9E3BD /* PhotosCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD8A851AD4667F00F9E3BD /* PhotosCollectionVC.m */; };
+		CEDD8A891AD4698E00F9E3BD /* PhotosCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD8A881AD4698E00F9E3BD /* PhotosCollectionCell.m */; };
+		CEDD8A8D1AD46E9400F9E3BD /* photo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEDD8A8C1AD46E9400F9E3BD /* photo1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +38,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE002DD01AD72DD2000BEABD /* PhotoDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailVC.h; sourceTree = "<group>"; };
+		CE002DD11AD72DD2000BEABD /* PhotoDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailVC.m; sourceTree = "<group>"; };
+		CE0DD76B1AD6537E00027D29 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Album.h; path = ../Album.h; sourceTree = "<group>"; };
+		CE0DD76C1AD6537E00027D29 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Album.m; path = ../Album.m; sourceTree = "<group>"; };
+		CE0DD76E1AD6537F00027D29 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Photo.h; path = ../Photo.h; sourceTree = "<group>"; };
+		CE0DD76F1AD6537F00027D29 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Photo.m; path = ../Photo.m; sourceTree = "<group>"; };
+		CE4E9B081AD551980024FD3B /* PictureDataTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureDataTransformer.h; sourceTree = "<group>"; };
+		CE4E9B091AD551980024FD3B /* PictureDataTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureDataTransformer.m; sourceTree = "<group>"; };
+		CE74202A1AD80F8B0004CEA4 /* FiltersCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltersCollectionVC.h; sourceTree = "<group>"; };
+		CE74202B1AD80F8B0004CEA4 /* FiltersCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiltersCollectionVC.m; sourceTree = "<group>"; };
 		CEDD8A4A1AD3F95C00F9E3BD /* Album 7Nisan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Album 7Nisan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDD8A4E1AD3F95C00F9E3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEDD8A4F1AD3F95C00F9E3BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CEDD8A511AD3F95C00F9E3BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEDD8A521AD3F95C00F9E3BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CEDD8A551AD3F95C00F9E3BD /* Album_7Nisan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Album_7Nisan.xcdatamodel; sourceTree = "<group>"; };
-		CEDD8A571AD3F95C00F9E3BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CEDD8A581AD3F95C00F9E3BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CEDD8A5B1AD3F95C00F9E3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEDD8A5D1AD3F95C00F9E3BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CEDD8A601AD3F95C00F9E3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CEDD8A661AD3F95C00F9E3BD /* Album 7NisanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Album 7NisanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDD8A6B1AD3F95C00F9E3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEDD8A6C1AD3F95C00F9E3BD /* Album_7NisanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Album_7NisanTests.m; sourceTree = "<group>"; };
+		CEDD8A791AD3F9B600F9E3BD /* AlbumTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlbumTableVC.h; path = ../AlbumTableVC.h; sourceTree = "<group>"; };
+		CEDD8A7A1AD3F9B600F9E3BD /* AlbumTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlbumTableVC.m; path = ../AlbumTableVC.m; sourceTree = "<group>"; };
+		CEDD8A7F1AD4023200F9E3BD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CEDD8A811AD4040700F9E3BD /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		CEDD8A821AD4040700F9E3BD /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
+		CEDD8A841AD4667F00F9E3BD /* PhotosCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosCollectionVC.h; sourceTree = "<group>"; };
+		CEDD8A851AD4667F00F9E3BD /* PhotosCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosCollectionVC.m; sourceTree = "<group>"; };
+		CEDD8A871AD4698E00F9E3BD /* PhotosCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosCollectionCell.h; sourceTree = "<group>"; };
+		CEDD8A881AD4698E00F9E3BD /* PhotosCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosCollectionCell.m; sourceTree = "<group>"; };
+		CEDD8A8C1AD46E9400F9E3BD /* photo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDD8A801AD4023200F9E3BD /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,9 +91,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE4E9B071AD550BD0024FD3B /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CE4E9B081AD551980024FD3B /* PictureDataTransformer.h */,
+				CE4E9B091AD551980024FD3B /* PictureDataTransformer.m */,
+				CEDD8A541AD3F95C00F9E3BD /* Album_7Nisan.xcdatamodeld */,
+				CE0DD76E1AD6537F00027D29 /* Photo.h */,
+				CE0DD76F1AD6537F00027D29 /* Photo.m */,
+				CE0DD76B1AD6537E00027D29 /* Album.h */,
+				CE0DD76C1AD6537E00027D29 /* Album.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
 		CEDD8A411AD3F95C00F9E3BD = {
 			isa = PBXGroup;
 			children = (
+				CEDD8A7F1AD4023200F9E3BD /* CoreData.framework */,
 				CEDD8A4C1AD3F95C00F9E3BD /* Album 7Nisan */,
 				CEDD8A691AD3F95C00F9E3BD /* Album 7NisanTests */,
 				CEDD8A4B1AD3F95C00F9E3BD /* Products */,
@@ -83,14 +127,20 @@
 		CEDD8A4C1AD3F95C00F9E3BD /* Album 7Nisan */ = {
 			isa = PBXGroup;
 			children = (
-				CEDD8A511AD3F95C00F9E3BD /* AppDelegate.h */,
-				CEDD8A521AD3F95C00F9E3BD /* AppDelegate.m */,
-				CEDD8A571AD3F95C00F9E3BD /* ViewController.h */,
-				CEDD8A581AD3F95C00F9E3BD /* ViewController.m */,
 				CEDD8A5A1AD3F95C00F9E3BD /* Main.storyboard */,
-				CEDD8A5D1AD3F95C00F9E3BD /* Images.xcassets */,
-				CEDD8A5F1AD3F95C00F9E3BD /* LaunchScreen.xib */,
-				CEDD8A541AD3F95C00F9E3BD /* Album_7Nisan.xcdatamodeld */,
+				CE74202A1AD80F8B0004CEA4 /* FiltersCollectionVC.h */,
+				CE74202B1AD80F8B0004CEA4 /* FiltersCollectionVC.m */,
+				CE002DD01AD72DD2000BEABD /* PhotoDetailVC.h */,
+				CE002DD11AD72DD2000BEABD /* PhotoDetailVC.m */,
+				CEDD8A871AD4698E00F9E3BD /* PhotosCollectionCell.h */,
+				CEDD8A881AD4698E00F9E3BD /* PhotosCollectionCell.m */,
+				CEDD8A841AD4667F00F9E3BD /* PhotosCollectionVC.h */,
+				CEDD8A851AD4667F00F9E3BD /* PhotosCollectionVC.m */,
+				CEDD8A791AD3F9B600F9E3BD /* AlbumTableVC.h */,
+				CEDD8A7A1AD3F9B600F9E3BD /* AlbumTableVC.m */,
+				CEDD8A811AD4040700F9E3BD /* CoreDataHelper.h */,
+				CEDD8A821AD4040700F9E3BD /* CoreDataHelper.m */,
+				CE4E9B071AD550BD0024FD3B /* CoreData */,
 				CEDD8A4D1AD3F95C00F9E3BD /* Supporting Files */,
 			);
 			path = "Album 7Nisan";
@@ -99,6 +149,11 @@
 		CEDD8A4D1AD3F95C00F9E3BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CEDD8A8C1AD46E9400F9E3BD /* photo1.jpg */,
+				CEDD8A511AD3F95C00F9E3BD /* AppDelegate.h */,
+				CEDD8A521AD3F95C00F9E3BD /* AppDelegate.m */,
+				CEDD8A5D1AD3F95C00F9E3BD /* Images.xcassets */,
+				CEDD8A5F1AD3F95C00F9E3BD /* LaunchScreen.xib */,
 				CEDD8A4E1AD3F95C00F9E3BD /* Info.plist */,
 				CEDD8A4F1AD3F95C00F9E3BD /* main.m */,
 			);
@@ -202,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDD8A8D1AD46E9400F9E3BD /* photo1.jpg in Resources */,
 				CEDD8A5C1AD3F95C00F9E3BD /* Main.storyboard in Resources */,
 				CEDD8A611AD3F95C00F9E3BD /* LaunchScreen.xib in Resources */,
 				CEDD8A5E1AD3F95C00F9E3BD /* Images.xcassets in Resources */,
@@ -222,9 +278,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDD8A831AD4040700F9E3BD /* CoreDataHelper.m in Sources */,
 				CEDD8A561AD3F95C00F9E3BD /* Album_7Nisan.xcdatamodeld in Sources */,
+				CEDD8A891AD4698E00F9E3BD /* PhotosCollectionCell.m in Sources */,
+				CE002DD21AD72DD2000BEABD /* PhotoDetailVC.m in Sources */,
 				CEDD8A531AD3F95C00F9E3BD /* AppDelegate.m in Sources */,
-				CEDD8A591AD3F95C00F9E3BD /* ViewController.m in Sources */,
+				CEDD8A861AD4667F00F9E3BD /* PhotosCollectionVC.m in Sources */,
+				CE74202C1AD80F8B0004CEA4 /* FiltersCollectionVC.m in Sources */,
+				CE4E9B0A1AD551980024FD3B /* PictureDataTransformer.m in Sources */,
+				CE0DD76D1AD6537E00027D29 /* Album.m in Sources */,
+				CEDD8A7B1AD3F9B600F9E3BD /* AlbumTableVC.m in Sources */,
+				CE0DD7701AD6537F00027D29 /* Photo.m in Sources */,
 				CEDD8A501AD3F95C00F9E3BD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,7 +411,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Album 7Nisan/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,7 +423,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Album 7Nisan/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +484,7 @@
 				CEDD8A721AD3F95C00F9E3BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEDD8A731AD3F95C00F9E3BD /* Build configuration list for PBXNativeTarget "Album 7NisanTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +493,7 @@
 				CEDD8A751AD3F95C00F9E3BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
